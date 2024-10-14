@@ -123,13 +123,14 @@ b, strong {
   font-size: 38px;
   line-height: inherit;
   display: block;
-  opacity: 0;
+  opacity: 1;
   overflow: hidden;
   position: absolute;
   top: 0;
   right: 0;
   left: 0;
   animation: BottomTotop 6s linear infinite 0s;
+  color: #ff0022 !important;
 }
 .animated-item:nth-child(2n+2) {
   animation-delay: 2s;
